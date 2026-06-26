@@ -1,35 +1,27 @@
 ---
-title: "Generador QR para Restaurantes"
-description: "Sitio web estático que muestra la solución QR para restaurantes y hoteles."
+title: "QR Carta – Generador de Cartas QR para Restaurantes"
+description: "Sitio web de una sola página que muestra la solución digital para restaurantes, con hero impactante, tarjetas de servicio, galería de imágenes y contacto vía WhatsApp."
 sdk: static
 ---
 
-# Generador QR para Restaurantes
+# QR Carta
 
-Este proyecto contiene una única página HTML autocontenida que muestra la solución digital para
-restaurantes basada en códigos QR. La página está diseñada con una paleta de colores
-personalizada, tipografía con personalidad y animaciones sutiles.
+Esta es una página estática (HTML, CSS y JavaScript) que presenta la solución de cartas QR para restaurantes.  
 
-## Estructura
-
-- **index.html** – Página única con todo el contenido, estilos y scripts.
-- **static/img/** – Carpeta con las siete imágenes proporcionadas que se usan en la galería.
+- **Una sola página** (`index.html`) totalmente autocontenida.  
+- **Diseño responsive** con flexbox y grid.  
+- **Hero** con gradiente, tipografía personalizada y CTA.  
+- **Tarjetas de servicio**, **estadísticas con contadores**, **galería de imágenes** (usando las 7 imágenes provistas).  
+- **Navbar fija** con fondo semitransparente y menú hamburguesa.  
+- **Footer completo** con información de contacto.  
+- **Botón flotante de WhatsApp** que abre el chat directo (`https://wa.me/34656691085`).  
 
 ## Cómo usar
 
-1. Copia la carpeta completa a tu servidor web.
-2. Reemplaza los marcadores `[TU WHATSAPP]` y `[TU EMAIL]` con tus datos reales.
-3. Abre `index.html` en cualquier navegador para ver la web.
+1. Copia la carpeta `static/` con las imágenes (`imagen_1.jpg` … `imagen_7.jpg`) al mismo nivel que `index.html`.  
+2. Abre `index.html` en cualquier navegador.  
+3. Modifica los textos o colores si lo deseas, manteniendo la estructura y las reglas de diseño.
 
-## Características
+--- 
 
-- Hero espectacular con gradiente y overlay.
-- Navbar fija con menú hamburguesa responsive.
-- Tarjetas de servicios con iconos y hover.
-- Contador animado de estadísticas.
-- Galería de imágenes usando los recursos provistos.
-- Botón flotante de WhatsApp para contacto inmediato.
-- Animaciones de fade‑in al hacer scroll mediante IntersectionObserver.
-- Totalmente responsive y sin dependencias externas.
-
----
+*Desarrollado por el mejor diseñador web del mundo.*
